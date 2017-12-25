@@ -9,6 +9,7 @@ public class 字母往前移 {
 
         for (int i=0;i<strLeng;i++){
             ch=(char)((int)str.charAt(i)-key);
+            //-是往前移，+是往後移。
             newStr=newStr+Character.toString(ch);
         }
         System.out.println(newStr);
