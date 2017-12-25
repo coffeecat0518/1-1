@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class one {
+public class 判斷最大最小值 {
     public static void main(String[]args){
         Scanner scn=new Scanner(System.in);
         int i,max,min,num;
