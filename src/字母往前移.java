@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class two {
+public class 字母往前移 {
     public static void main(String[]args) {
         Scanner scn = new Scanner(System.in);
         String str=scn.nextLine(),newStr="";
