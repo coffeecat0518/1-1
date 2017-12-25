@@ -3,11 +3,9 @@ import java.util.Scanner;
 public class 判斷最大最小值 {
     public static void main(String[]args){
         Scanner scn=new Scanner(System.in);
-        int i,max,min,num;
-        max=-2147483648;
-        min=2147483647;
+        float num,max=Float.MIN_NORMAL,min=Float.MAX_VALUE;
 
-        for (i=1;i<=10;i++){
+        for (int i=1;i<=10;i++){
             num=scn.nextInt();
             if (num>max){
                 max=num;
